@@ -1,0 +1,12 @@
+<html t:type="layout" title="Define Ticket Type"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+
+<h1>Define Ticket Type</h1>
+
+<t:form>
+	Ticket type: <t:textfield t:id="ticketType" />
+	Price: <t:textfield t:id="ticketPrice" />
+	<t:submit t:id="submit" />
+</t:form>
+
+</html>

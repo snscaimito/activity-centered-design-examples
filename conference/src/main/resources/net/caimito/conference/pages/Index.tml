@@ -1,0 +1,9 @@
+<html t:type="layout" title="Index"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+
+<ul>
+	<li><t:pagelink page="tickettype">Define Ticket Type</t:pagelink></li>
+	<li><t:pagelink page="buyticket">Buy Ticket</t:pagelink></li>
+</ul>
+
+</html>

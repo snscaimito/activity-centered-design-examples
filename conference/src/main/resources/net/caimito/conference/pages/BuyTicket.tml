@@ -1,0 +1,13 @@
+<html t:type="layout" title="Buy Ticket"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_1_0.xsd">
+
+<h1>Buy Ticket</h1>
+
+<t:form>
+	<t:select t:id="events" t:value="eventName" t:model="eventNames"/>
+	<t:select t:id="ticketType" t:value="ticketTypeName" t:model="literal:Standard"/>
+	<t:textfield t:id="attendee"/>
+	<t:submit t:id="submit" />
+</t:form>
+
+</html>
